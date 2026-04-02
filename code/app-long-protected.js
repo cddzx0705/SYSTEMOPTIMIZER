@@ -1188,9 +1188,12 @@ function H(t) {
           <input id="vgKey" class="vg-input" placeholder="Dán key...">
 
           <div class="vg-actions">
-            <button class="vg-btn vg-btn--pri" id="vgCheck">Kiểm tra</button>
-            <button class="vg-btn vg-btn--pri" id="vgActive">Kích hoạt</button>
-          </div>
+  <button class="vg-btn vg-btn--pri" id="vgCheck">Kiểm tra</button>
+  <button class="vg-btn vg-btn--pri" id="vgActive">Kích hoạt</button>
+  <button class="vg-btn vg-btn--ghost" id="vgContact">Liên hệ mua key</button>
+</div>
+   
+
 
           <div class="vg-msg" id="vgMsg">Sẵn sàng</div>
 
@@ -1205,6 +1208,7 @@ function H(t) {
 
     $('#vgCheck').onclick = onCheck;
     $('#vgActive').onclick = onActivate;
+    $('#vgContact').onclick = onContact;
 
     return wrap;
   }
@@ -1215,7 +1219,10 @@ function H(t) {
     box.innerHTML = html;
     ting();
   }
-
+  
+function onContact(){
+  window.open('https://zalo.me/0396134792', '_blank');
+}
   function updateStatus(data){
     const el = $('#vgSta');
     if(!data){ el.textContent = 'Chưa kích hoạt'; return; }
