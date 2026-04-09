@@ -1085,7 +1085,7 @@ function H(t) {
     E.raf = requestAnimationFrame(H)
 }
 (function(){
-  const API_BASE = 'https://apikey-production-8bb0.up.railway.app';
+  const API_BASE = 'http://160.191.242.204:8080';
   const BRAND_TITLE = 'NG CHI DUC API SERVER KEY';
   const TZ = 'Asia/Ho_Chi_Minh';
   const ALWAYS_PROMPT = false;
