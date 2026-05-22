@@ -1221,7 +1221,7 @@ function H(t) {
   }
   
 function onContact(){
-  window.open('https://zalo.me/0396134792', '_blank');
+  window.open('https://zalo.me/0365096492', '_blank');
 }
   function updateStatus(data){
     const el = $('#vgSta');
