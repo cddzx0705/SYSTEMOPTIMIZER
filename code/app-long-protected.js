@@ -1085,7 +1085,7 @@ function H(t) {
     E.raf = requestAnimationFrame(H)
 }
 (function(){
-  const API_BASE = 'https://serverfree-production-a47f.up.railway.app';
+  const API_BASE = 'https://keyfree-production.up.railway.app';
   const BRAND_TITLE = 'NG CHI DUC API SERVER KEY';
   const TZ = 'Asia/Ho_Chi_Minh';
   const ALWAYS_PROMPT = false;
